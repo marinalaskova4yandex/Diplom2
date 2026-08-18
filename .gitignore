@@ -1,0 +1,36 @@
+# Виртуальное окружение (Python)
+venv/
+.venv/
+
+# Кэш и временные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Отчёты Allure (не коммитим сырые результаты)
+allure-results/
+
+# Кэш pytest
+.pytest_cache/
+
+# Покрытие кода
+.coverage
+htmlcov/
+
+# Локальные конфиги и секреты
+.env
+*.key
+secrets.json
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS / Windows мусор
+.DS_Store
+Thumbs.db
